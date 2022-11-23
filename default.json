@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "config:base",
+    ":prHourlyLimitNone",
+    "local>hassyadai/renovate-config:schedule",
+    "local>hassyadai/renovate-config:disableMajor",
+    "local>hassyadai/renovate-config:packageGroupComposer",
+    "local>hassyadai/renovate-config:packageGroupComposerDevAutoMerge",
+    "local>hassyadai/renovate-config:packageGroupGithubAction",
+    "local>hassyadai/renovate-config:packageGroupNpm",
+    "local>hassyadai/renovate-config:packageGroupNpmDevAutoMerge",
+    "local>hassyadai/renovate-config:vulnerabilityAlert"
+  ],
+  "rangeStrategy": "update-lockfile",
+  "labels": ["other", "dependencies"]
+}

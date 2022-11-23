@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "enabled": true,
+      "matchManagers": ["composer"],
+      "matchDepTypes": ["require"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "composer",
+      "labels": ["composer", "server", "dependencies"]
+    }
+  ]
+}

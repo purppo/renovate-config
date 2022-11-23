@@ -1,0 +1,13 @@
+{
+  "packageRules": [
+    {
+      "enabled": true,
+      "automerge": true,
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies", "volta"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "npm-dev",
+      "labels": ["npm-dev", "front", "dependencies"]
+    }
+  ]
+}

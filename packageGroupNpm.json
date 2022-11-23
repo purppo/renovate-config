@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "enabled": true,
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "npm",
+      "labels": ["npm", "front", "dependencies"]
+    }
+  ]
+}

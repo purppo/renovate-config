@@ -1,0 +1,13 @@
+{
+  "packageRules": [
+    {
+      "enabled": true,
+      "automerge": true,
+      "matchManagers": ["composer"],
+      "matchDepTypes": ["require-dev"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "composer-dev",
+      "labels": ["composer-dev", "server", "dependencies"]
+    }
+  ]
+}

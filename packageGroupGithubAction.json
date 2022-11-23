@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+    {
+        "enabled": true,
+        "matchPaths": [".github/**"],
+        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+        "groupName": "github-actions",
+        "labels": ["github-action", "ci", "dependencies"]
+    }
+  ]
+}
